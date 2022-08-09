@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "disablemessagedeletion",
+  "version": "${version}",
+
+  "name": "DisableMessageDeletion",
+  "description": "Disables the deletion of messages by the server on the client",
+  "authors": [
+    "kennytv"
+  ],
+  "contact": {
+    "sources": "https://github.com/kennytv/disablemessagedeletion"
+  },
+
+  "license": "MIT",
+
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "eu.kennytv.disablemessagedeletion.DisableMessageDeletionMod"
+    ],
+    "modmenu": [
+      "eu.kennytv.disablemessagedeletion.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "disablemessagedeletion.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "minecraft": ">=1.19.1",
+    "java": ">=17"
+  },
+  "suggests": {
+    "cloth-config": "*",
+    "modmenu": "*"
+  }
+}
