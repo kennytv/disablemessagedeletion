@@ -13,6 +13,7 @@
   },
 
   "license": "MIT",
+  "icon": "assets/disablemessagedeletion/icon.png",
 
   "environment": "client",
   "entrypoints": {
