@@ -1,4 +1,4 @@
 {
-  "text.autoconfig.disablemessagedeletion.title": "DisableMessageDeletion options",
-  "text.autoconfig.disablemessagedeletion.option.minDeletionDelay": "Min amount of seconds after receiving a message before it can be deleted by the server. Set to -1 to disable message deletion entirely."
+  "text.autoconfig.disablemessagedeletion.title": "Options for DisableMessageDeletion",
+  "text.autoconfig.disablemessagedeletion.option.minDeletionDelay": "Delay in seconds before a received message can be removed by the server (or -1 to disable message deletion entirely)."
 }
