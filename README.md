@@ -10,7 +10,7 @@ disable message deletion by setting it to `-1`.
 Here, the minimum delay is set to 5 seconds. If a deletion attempt is made before that, the message in question gets a
 purple indicator. Only after the delay has passed, the server can actually delete the message.
 
-![Deletion attempts](https://i.imgur.com/bfU4xZO.gif)
+![Deletion attempts](https://i.imgur.com/e74fPn6.gif)
 
 ## License
 
